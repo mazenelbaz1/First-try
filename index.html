@@ -8,10 +8,11 @@
     .main { min-height: 50vh;
         background-image: url("image/pizza\ 02\ background.jpg");
     background-size: cover;
-    background-position: center;
 color: rgb(243, 192, 38);
     padding: 25px 28px;
-    margin: 0;
+    border-radius: 20px;
+
+
 
 
         }
@@ -40,14 +41,14 @@ color: rgb(243, 192, 38);
             border-radius: 16px;
             margin-top: 90px;
         }
-        .pepperoni {
+        .pizza-recipes {
+            flex-direction: row;
+            display: flex;
             justify-content: center;
             align-items: center;
             margin-top: 20px;
             width: 300px;
             height: 300px;
-            background-color: rgb(243, 192, 38);
-            border-radius: 50px;
         }
        
         h2 {
@@ -56,6 +57,37 @@ color: rgb(243, 192, 38);
             font-size: 30px;
             font-weight: bold;
             color: rgb(243, 192, 38);
+        }
+        .pepperoni-pizza {
+            width: 250px;
+            height: 250px;
+            margin-left: 1200px;
+            border-radius: 50px;
+        }
+        .chicken-pizza {
+            width: 250px;
+            height: 250px;
+            margin-left: 20px;
+            border-radius: 50px;
+        }
+        .margherita-pizza {
+            width: 250px;
+            height: 250px;
+            margin-left: 20px;
+            border-radius: 50px;
+        }
+
+        .veggie-pizza {
+            width: 250px;
+            height: 250px;
+            margin-left: 20px;
+            border-radius: 50px;
+        }
+        .supreme-pizza {
+            width: 250px;
+            height: 250px;
+            margin-left: 20px;
+            border-radius: 50px;
         }
     </style>
 </head>
@@ -68,9 +100,13 @@ color: rgb(243, 192, 38);
     <a href="shop.html" class="shop-btn">Order Now</a>
     </div>
     <h2>PICK A PIZZA FOR A RECIPE</h2>
-    <div class="pepperoni">
-        <a href="pepporoni.html"><img src="image/pepperoni.jpg" alt="Pepperoni Pizza" class="pepperoni"></a>
+    <div class="pizza-recipes">
+        <a href="pepporoni.html"><img src="image/pepperoni.jpg" alt="Pepperoni Pizza" class="pepperoni-pizza"></a>
+        <a href="margherita-pizza.html"><img src="image/margharita-pizza.jpg" alt="Margherita Pizza" class="margherita-pizza"></a>
+        <a href="chicken-pizza.html"><img src="image/chicken ranch.jpg" alt="Chicken Pizza" class="chicken-pizza"></a>
+        <a href="supreme-pizza.html"><img src="image/supreme-pizza.jpg" alt="Supreme Pizza" class="supreme-pizza"></a>
+        <a href="veggie-pizza.html"><img src="image/veggie-pizza.jpg" alt="Veggie Pizza" class="veggie-pizza"></a>
+        
     </div>
-    
 </body>
 </html>
