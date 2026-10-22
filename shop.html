@@ -5,25 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zee Pizza</title>
     <style>
-.search {
-    width: 300px;
-    height: 30px;
-    font-size: 16px;
-    margin-bottom: 20px;
-    margin-left: 585px;
-margin-top: 20px;}
+
     h1 {
         text-align: center;
-        margin-top: 20px;
+        margin-top: 200px;
         font-size: 40px;
         color: white;
-        display: inline-block;
+        display: table;
         background-color: rgb(160, 35, 35);
         border-radius: 20px;
         size: 50px;
         padding: 20px 40px;
-        margin-left: 560px;
-        margin-top: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px 40px;
     }
     body {
         background-color: rgb(243, 192, 38);
@@ -32,25 +27,57 @@ margin-top: 20px;}
         display: inline-block;
         padding: 10px 20px;
         background-color: rgb(160, 35, 35);
-        justify-content: center;
-        align-items: center;
         color: white;
         text-decoration: none;
         font-size: 30px;
         font-weight: bold;
         border-radius: 16px;
-        margin-top: 50x;
-        margin-left: 650px;
-        margin-top: 20px;
+        margin-top: 50px;
+
+    }
+    .pizza-choice {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 18px;
+            margin: 20px auto;
+            text-align: center;
+            cursor: pointer;
+    }
+    select {
+        width: 200px;
+        height: 40px;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
     }
     </style>
+    <script>
+        function placeOrder() {
+            const choice = document.getElementById("choice").value;
+            alert("You have ordered: " + choice);
+            localStorage.setItem("lastOrder", choice);
+            window.location.href = "order.html";
+        }
+    </script>
 </head>
 <body>
     <h1>Order Your Pizza</h1>
-    <input class="search" type="text" placeholder="pizza..." style="width: 300px; height: 30px; font-size: 16px; margin-bottom: 20px;
-    border-radius: 5px; padding: 5px;
-    border: 1px solid #ca1c1c;">
-    <a class="order" href="order.html">Order Now</a>
+    <div class="pizza-choice">
+    <label for="choice"></label>
+    <select id="choice" name="choice">
+        <option value="supreme">Supreme Pizza</option>
+        <option value="margherita">Margherita Pizza</option>
+        <option value="veggie">Veggie Pizza</option>
+        <option value="chicken">Chicken Pizza</option>
+        <option value="pepperoni">Pepperoni Pizza</option>
+    </select>
+    </div>
+    <div style="text-align: center; margin-top: 20px;">
+    <button class="order" onclick="placeOrder()">Order Now</button>
+    </div>
 
 </body>
 </html>
