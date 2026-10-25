@@ -9,7 +9,6 @@
             justify-content: center;
             text-align: center;
             margin-top: 270px;
-            margin-left: 320px;
             font-size: 50px;
             color: white;
             display: inline-block;
@@ -17,18 +16,30 @@
             border-radius: 20px;
             size: 50px;
             padding: 20px 40px;
-            
+            text-align: center;
         }
 
         body {
             background-color: rgb(243, 192, 38);
+            text-align: center;
           
+        }
+        .pizza-name {
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            border-radius: 20px;
+            background-color: rgb(160, 35, 35);
+            border: 2px solid rgb(160, 35, 35);
         }
         </style>
 </head>
 <body>
     <h1>THANK YOU FOR YOUR ORDER!</h1>
-
-    
+    <p class="pizza-name" id="pizza-name"></p>
+    <script>
+        const pizza = localStorage.getItem("lastOrder");
+        document.getElementById('pizza-name').textContent = "You Selected: " + pizza + " pizza";
+    </script>
 </body>
 </html>
