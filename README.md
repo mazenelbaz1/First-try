@@ -5,7 +5,7 @@ A pizza shop web
 
 ## Description
 
-It's a Pizza web store that you can buy whatever kind of pizzas and if your order isn't here, you can create yours!!
+It's a Pizza web store that you can buy whatever kind of pizzas and if your order isn't in the list, you can create yours!!
 
 ## Live Demo
 
@@ -23,6 +23,7 @@ The image above is a screenshot of the working website
 
 * HTML
 * CSS
+* Javascript
 
 ## Getting Started
 
