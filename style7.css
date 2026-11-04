@@ -1,0 +1,49 @@
+ 
+
+    h1 {
+        text-align: center;
+        margin-top: 200px;
+        font-size: 40px;
+        color: white;
+        display: table;
+        background-color: rgb(160, 35, 35);
+        border-radius: 20px;
+        size: 50px;
+        padding: 20px 40px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px 40px;
+    }
+    body {
+        background-color: rgb(243, 192, 38);
+    }
+    .order {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: rgb(160, 35, 35);
+        color: white;
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: bold;
+        border-radius: 16px;
+        margin-top: 50px;
+
+    }
+    .pizza-choice {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 18px;
+            margin: 20px auto;
+            text-align: center;
+            cursor: pointer;
+    }
+    select {
+        width: 200px;
+        height: 40px;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+    }
