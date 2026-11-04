@@ -23,20 +23,21 @@ The image above is a screenshot of the working website
 
 * HTML
 * CSS
-* Javascript
+* JavaScript
 
 ## Getting Started
 
 ### Dependencies
 
 * A modern web browser
-* Internet connection for Google Fonts
 
 ### Installing
 
 1. Download or clone the repository.
-2. No additional packages or installation are required.
+2. Open project folder.
+3. Find and open index.html to run it.
+4. No additional packages or installation are required.
 
 ## Credits
 
-Used photos from Printest
+Used photos from Pinterest
