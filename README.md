@@ -40,7 +40,8 @@ The image above is a screenshot of the working website
 ## Credits
 
 Used photos from Pexels
-Made by mazenelbaz01
+
+project made by mazenelbaz1
 
 ## License
 
