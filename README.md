@@ -1,11 +1,11 @@
 # Pizza Zee
 
 ## Overview
-A pizza shop web
+A simple pizza web
 
 ## Description
 
-It's a Pizza web store that you can buy whatever kind of pizzas and if your order isn't in the list, you can create yours!!
+It's a Simple Pizza Website that lets you select between 5 different types of pizza, which are pepperoni, margherita, chicken, supreme, veggie pizza. it also provides a recipe of each one so you can make your own.
 
 ## Live Demo
 
@@ -13,9 +13,7 @@ It's a Pizza web store that you can buy whatever kind of pizzas and if your orde
 
 ## Screenshots
 
-<p align="center">
-    <img src="Web_Page.png" width="850">
-</p>
+![Web_page.png](Web_page.png)
 
 The image above is a screenshot of the working website
 
@@ -29,7 +27,8 @@ The image above is a screenshot of the working website
 
 ### Dependencies
 
-* A modern web browser
+* A modern web browser (Goofle Chrome, Edge)
+* Windows 10 / Windows 11
 
 ### Installing
 
@@ -40,4 +39,9 @@ The image above is a screenshot of the working website
 
 ## Credits
 
-Used photos from Pinterest
+Used photos from Pexels
+Made by mazenelbaz01
+
+## License
+
+This project is licensed under the [MIT License](LICENSE)
